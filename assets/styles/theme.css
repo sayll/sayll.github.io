@@ -1,0 +1,133 @@
+:root {
+  /*--text-bg-hover: #304352;*/
+  --btn-bg: rgba(0, 0, 0, .75)
+}
+
+html, body {
+  /*cursor: url(https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/arrow.cur),auto!important;*/
+  /*-webkit-touch-callout: none; !*系统默认菜单被禁用*!*/
+  /*-webkit-user-select: none; !*webkit浏览器*!*/
+  /*-kHTML-user-select: none; !*早起浏览器*!*/
+  /*-moz-user-select: none; !*火狐浏览器*!*/
+  /*-ms-user-select: none; !*IE浏览器*!*/
+  /*user-select: none; !*用户是否能够选中文本*!*/
+}
+
+#article-container .flink .flink-list > .flink-list-item:before {
+  display: none;
+}
+
+/* 友链:hover */
+#article-container .flink .flink-list > .flink-list-item:hover {
+  background: linear-gradient(-45deg, rgba(168, 237, 234, .65), rgba(143, 211, 244, .65), rgba(48, 207, 208, .65));
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
+}
+
+/* 文字: hover */
+#nav .menus_items .menus_item .menus_item_child li:hover a,
+#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
+#aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
+  color: #fff !important;
+}
+
+.framework-info {
+  display: none;
+}
+
+#aside-content .card-info .card-info-social-icons i:hover {
+  transform: none;
+}
+
+/* 404 页面 */
+.error404 #error-wrap .error-content .error-img {}
+
+/* 页脚footer */
+#footer {
+  /*background: linear-gradient(-45deg, rgba(168, 237, 234, .65), rgba(143, 211, 244, .65), rgba(48, 207, 208, .65));*/
+  /*background-size: 400% 400%;*/
+  /*-webkit-animation: Gradient 10s ease infinite;*/
+  /*-moz-animation: Gradient 10s ease infinite;*/
+  /*animation: Gradient 10s ease infinite;*/
+}
+
+#footer #footer-wrap {
+  padding: 1rem;
+}
+
+#rightside {
+  bottom: 100px;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+  animation: Gradient 10s ease infinite;
+}
+
+/* Valine */
+.v[data-class=v] .vwrap {
+  border: none !important;
+}
+
+.v[data-class=v] .vwrap .vheader .vinput {
+  border-bottom: 1px solid #dedede !important;
+}
+
+.v[data-class=v] .vpower.txt-right {
+  display: none !important;
+}
+
+/* 渐变色滚动动画 */
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
